@@ -4,7 +4,7 @@ plugins {
     id("org.jetbrains.intellij") version "1.17.4"
 }
 
-group = "com.example"
+group = "com.cubedroid"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -18,6 +18,8 @@ intellij {
     type.set("IC") // Target IDE Platform
 
     plugins.set(listOf(/* Plugin Dependencies */))
+
+    pluginName.set("CopyFiles")
 }
 
 tasks {
